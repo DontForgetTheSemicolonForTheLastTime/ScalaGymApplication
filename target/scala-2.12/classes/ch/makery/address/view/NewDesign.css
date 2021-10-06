@@ -1,0 +1,57 @@
+/* Button design */
+.button {
+
+    -fx-border-color: #e2e2e2;
+    -fx-border-radius: 20px;
+    -fx-background-color: #F7A03D;
+    -fx-background-radius: 20px;
+    -fx-font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    -fx-font-size: 12pt;
+    -fx-fill: black;
+    -fx-text-alignment: center;
+
+
+}
+
+.background {
+    -fx-background-color: #2e9c5c;
+}
+
+.label {
+    -fx-font-size: 11pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: rgb(248, 247, 247);
+    -fx-opacity: 0.6;
+}
+
+.table-view {
+    -fx-base: #278a5c;
+    -fx-control-inner-background: #278a5c;
+    -fx-background-color: #b7c03293;
+    -fx-table-cell-border-color: transparent;
+    -fx-table-header-border-color: transparent;
+    -fx-padding: 5;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-size: 15;
+    -fx-border-width: 0 0 1 0;
+    -fx-background-color: rgb(134, 56, 56);
+    -fx-border-color:
+            transparent
+            transparent
+            derive(-fx-base, 80%)
+            transparent;
+    -fx-border-insets: 0 10 1 0;
+}
+
+.menu-bar .label {
+    -fx-font-size: 14pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: rgb(126, 39, 39);
+    -fx-opacity: 0.9;
+}
+
+.menu-bar {
+    -fx-background-color: derive(#60a34f,20%);
+}
